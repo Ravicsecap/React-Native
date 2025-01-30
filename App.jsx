@@ -1,6 +1,7 @@
 import {View, Text, Button} from 'react-native';
 import React from 'react';
 import FunctionalBasedCom from './src/component/FunctionalBasedCom';
+import Jsx from './src/component/Jsx';
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       </Text>
       <FunctionalBasedCom />
       <FunctionalBasedCom /> resuablity of ex.
-      <FunctionalBasedCom /> // reuseblity of ex.
+      <FunctionalBasedCom /> // reuseblity of ex. // JSX
+      <Jsx />
       <Button title="press" />
     </View>
   );
